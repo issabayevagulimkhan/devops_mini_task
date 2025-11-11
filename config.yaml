@@ -1,0 +1,16 @@
+application: 
+  name: devops-web-app
+  port: 80
+  version: 1.0.0
+
+database: 
+  type: mysql
+  host: 192.168.64.6
+  user: gulim
+  password_file: /etc/secrets/db_password.txt
+
+logging:
+  path: /var/log/app/web_app.log
+  level: INFO
+
+
